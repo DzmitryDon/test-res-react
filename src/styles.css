@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+section#employeers-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+table {
+  width: 45%;
+  border-spacing: 0 1em;
+}
+
+form,
+tr {
+  background-color: #e9dfdf;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+form,
+td {
+  border-radius: 3px;
+  padding: 15px;
+}
+
+tr > td:first-child {
+  width: 80%;
+}
+
+header {
+  background-color: #e2bf5e;
+}
+
+header > ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header li {
+  padding: 20px;
+  list-style: none;
+}
+
+form {
+  margin-top: 1em;
+  width: 60%;
+  height: 200px;
+}
+
+form > input {
+  margin-bottom: 1em;
+  width: 60%;
+  height: 30px;
+}
