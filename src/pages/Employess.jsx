@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { EmployeesList } from "../components/EmployeesList";
-import { EmployeesForma } from "../components/EmployeesFormayarn add eslint --dev";
+import { EmployeesForma } from "../components/EmployeesForma";
 
 export const Employees = () => {
   const [employeesList, setEmployeesList] = useState([]);
