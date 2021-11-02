@@ -1,4 +1,4 @@
-const EmployeesList = ({ list, deleteEmployee }) => (
+export const EmployeesList = ({ list, deleteEmployee }) => (
   <table>
     <tbody>
       {list.map((employee) => (
@@ -14,5 +14,3 @@ const EmployeesList = ({ list, deleteEmployee }) => (
     </tbody>
   </table>
 );
-
-export default EmployeesList;

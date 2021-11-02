@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Form = ({ addEmployee }) => {
+export const EmployeesForma = ({ addEmployee }) => {
   const [newEmployee, setNewEmployee] = useState({});
 
   function handleSubmit(e) {
@@ -36,4 +36,3 @@ const Form = ({ addEmployee }) => {
     </form>
   );
 };
-export default Form;

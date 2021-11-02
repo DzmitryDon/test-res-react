@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
-import EmployeesList from "../components/EmployeesList";
-import EmployeeForm from "../components/Employees";
+import { EmployeesList } from "../components/EmployeesList";
+import { EmployeesForma } from "../components/EmployeesFormayarn add eslint --dev";
 
-const Employees = () => {
+export const Employees = () => {
   const [employeesList, setEmployeesList] = useState([]);
 
   useEffect(() => {
@@ -28,9 +28,7 @@ const Employees = () => {
   return (
     <section id="employeers-page">
       <EmployeesList list={employeesList} deleteEmployee={deleteEmployee} />
-      <EmployeeForm addEmployee={addEmployee} />
+      <EmployeesForma addEmployee={addEmployee} />
     </section>
   );
 };
-
-export default Employees;
